@@ -20,7 +20,7 @@ export default function RegNext() {
             <span className={styles.entering}>Email</span>
             <span className={styles.entering}>Upload your fingerprint</span>
         </div>
-        <Image className={styles.plus}src="/upload.png"width={148} height={148} alt="Fingerprint" />
+        <Image className={styles.plus}src="/upload.png"width={100} height={100} alt="Fingerprint" />
         <div className={styles.submit}>Submit
         <Image className={styles.plus}src="/submit.png"width={92} height={34} alt="Fingerprint" />
         </div>
