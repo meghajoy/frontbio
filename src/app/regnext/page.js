@@ -45,7 +45,9 @@ export default function RegNext() {
           <Image className={styles.plus}src="/plus.png"width={24} height={24} alt="Fingerprint" />  
           <Image className={styles.plus}src="/plus.png"width={24} height={24} alt="Fingerprint" />
          </div>
-
+        <div className={styles.submit}>Submit
+        <Image className={styles.plus}src="/submit.png"width={92} height={34} alt="Fingerprint" />
+        </div>
     </main>
   );
 }
